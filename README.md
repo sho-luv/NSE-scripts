@@ -8,5 +8,7 @@ Copy the .nse file to nmap/scripts/ folder and run update
 
 ``cp cve-2020-0796.nse /usr/share/nmap/scripts/``
 ``nmap --script-updatedb``
+
 Run as 
+
 ``nmap -p445 --script cve-2020-0796 <<target>>``
