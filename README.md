@@ -11,6 +11,7 @@ Note: This script just safe checks for CVE-2020-0796 vulnerability on SMBv3 and 
 Copy the .nse file to nmap/scripts/ folder and run update
 
 ``cp cve-2020-0796.nse /usr/share/nmap/scripts/``
+
 ``nmap --script-updatedb``
 
 Run as 
