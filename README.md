@@ -5,7 +5,6 @@ The script is a modified version of smb-protocols.nse script with a modified out
 
 Note: This script just safe checks for CVE-2020-0796 vulnerability on SMBv3 and doesn't attempt anything beyond that.
 
-Checks for compression based on https://github.com/ollypwn/SMBGhost/
 
 # Installation and running
 
@@ -20,4 +19,4 @@ Run as
 
 
 
-Could've been done utilizing smb.lua in the nselib but it required substantial editing of the functions, went with sockets. 
+Checks for compression based on https://github.com/ollypwn/SMBGhost/ Could've been done utilizing smb.lua in the nselib but it required substantial editing of the functions, went with sockets. 
