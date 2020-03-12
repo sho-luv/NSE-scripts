@@ -17,3 +17,7 @@ Copy the .nse file to nmap/scripts/ folder and run update
 Run as 
 
 ``nmap -p445 --script cve-2020-0796 <<target>>``
+
+
+
+Could've been done utilizing smb.lua in the nselib but it required substantial editing of the functions, went with sockets. 
