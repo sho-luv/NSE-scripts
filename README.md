@@ -27,7 +27,7 @@ Run as
 ``-- |     2.10``\
 ``-- |     3.00``\
 ``-- |     3.02``\
-``-- |_    3.11 (SMBv3.11) LZNT1 compression algorithm - Vulnerable to CVE-2020-0796 SMBGhost``\
+``-- |_    3.11 (SMBv3.11) LZNT1 compression algorithm - Vulnerable to CVE-2020-0796 SMBGhost``
 
 
 
