@@ -32,3 +32,27 @@ Run as
 
 
 Checks for compression based on https://github.com/ollypwn/SMBGhost/ Could've been done utilizing smb.lua in the nselib but it required substantial editing of the functions, went with sockets. 
+
+
+
+# CVE-2020-1359
+NSE script to detect vulnerable CVE-2020-1350 issue, with Microsoft DNS server (aka SIGRed)
+
+The script utilizes code components of dns-nsid.nse script with checks for CVE-2020-1350 
+
+Note: This script just safe checks for CVE-2020-1350  vulnerability on Microsoft DNS Servers for identification purposes only and doesn't attempt anything beyond that. This script is not perfect and depends on the output of dig CH TXT bind.version @target and fails when DNS version number is hidden 
+
+
+# Installation and running
+
+Copy the .nse file to nmap/scripts/ folder and run update
+
+``cp cve-2020-1350.nse /usr/share/nmap/scripts/``
+
+``nmap --script-updatedb``
+
+Run as 
+
+``sudo nmap -sSU -p53 --script=./cve-2020-1350.nse <<target>> ``
+ ``sudo nmap -sSU -p53 --script=./cve-2020-1350.nse <<target>> --script-args output=<outputfile.txt>``
+
