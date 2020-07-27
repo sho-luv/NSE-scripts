@@ -55,5 +55,5 @@ Run as
 
 ``sudo nmap -sSU -p53 --script cve-2020-1350 <<target>> ``
 
- ``sudo nmap -sSU -p53 --scrip cve-2020-1350 <<target>> --script-args output=<outputfile.txt>``
+ ``sudo nmap -sSU -p53 --script cve-2020-1350 <<target>> --script-args output=<outputfile.txt>``
 
