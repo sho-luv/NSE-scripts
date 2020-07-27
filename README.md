@@ -35,7 +35,7 @@ Checks for compression based on https://github.com/ollypwn/SMBGhost/ Could've be
 
 
 
-# CVE-2020-1359
+# CVE-2020-1350
 NSE script to detect vulnerable CVE-2020-1350 issue, with Microsoft DNS server (aka SIGRed)
 
 The script utilizes code components of dns-nsid.nse script with checks for CVE-2020-1350 
